@@ -1,3 +1,7 @@
 const audio = document.querySelector('audio')
 
-audio.play();
+
+function play_(){
+    audio.play();
+}
+play_();
