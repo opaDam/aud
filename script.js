@@ -1,7 +1,7 @@
 const audio = document.querySelector('audio')
 
 
-function play_(){
+let play_ = () => {
     audio.play();
 }
 play_();
