@@ -1,7 +1,7 @@
 const audio_ = document.querySelector('#audio').autoplay = true;
 
-if (promise !== undefined) {
-  promise.then(_ => {
+if (audio_ !== undefined) {
+  audio_.then(_ => {
     // Autoplay started!
   }).catch(error => {
     // Autoplay was prevented.
