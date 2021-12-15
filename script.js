@@ -1,4 +1,4 @@
-const audio = document.querySelector('#audio').autoplay = true;
+const audio_ = document.querySelector('#audio').autoplay = true;
 
 if (promise !== undefined) {
   promise.then(_ => {
@@ -10,7 +10,7 @@ if (promise !== undefined) {
 }
 
 let play_ = () => {
-    console.log(audio)
-    audio.play()
+    console.log(audio_)
+    audio_.play()
 }
 play_()
