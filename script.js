@@ -1,4 +1,4 @@
-const audio = document.querySelector('#audio')
+const audio = document.querySelector('#audio').autoplay = true;
 
 let play_ = () => {
     console.log(audio)
