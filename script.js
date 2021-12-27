@@ -1,7 +1,7 @@
-const audio_ = document.querySelector('#audio').autoplay = true;
+const audio = document.querySelector('#audio');
 
-let play_ = () => {
-    console.log(audio_)
-    audio_.play()
+let play = () => {
+    console.log(audio)
+    audio.play()
 }
-play_()
+play()
