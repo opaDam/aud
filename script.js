@@ -1,7 +1,9 @@
-const audio = document.querySelector('#audio');
+//   const audioPlayer = document.querySelector('audio');
 
-let play = () => {
-    console.log(audio)
-    audio.play()
-}
-play()
+  function my(){
+      audioPlayer = new Audio("./data/s.mp3")
+      console.log(audioPlayer);
+      audioPlayer.play();
+    document.querySelector(".btn_play").style="display: none"
+      }
+
