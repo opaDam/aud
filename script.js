@@ -13,5 +13,5 @@ list.addEventListener("click", function (e) {
 function my() {
   audioPlayer.src = song;
   audioPlayer.play();
-  print_song.innerText = text
+  print_song.innerText = text;
 }
