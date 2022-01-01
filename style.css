@@ -13,5 +13,7 @@ ul{
 }
 a{
     text-decoration: none;
+    text-decoration-style: none;
+    font-style: normal;
     color: #bbb;
 }
