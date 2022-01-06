@@ -11,7 +11,7 @@ list.addEventListener("click", function (e) {
   my();
 });
 function my() {
-  song = "audio": "https://www.pengshu.net/lyrics/content/songs/zhui_meng_chi_zi_xin.mp3"
+  song =  "https://www.pengshu.net/lyrics/content/songs/zhui_meng_chi_zi_xin.mp3"
   audioPlayer.src = song;
   audioPlayer.play();
   print_song.innerText = text;
