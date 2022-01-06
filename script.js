@@ -5,7 +5,7 @@ const print_song =document.querySelector(".prt_song");
 const list = document.querySelector(".list");
 list.addEventListener("click", function (e) {
   e.preventDefault();
-  song = e.target.href;
+//   song = e.target.href;
   text = e.target.innerText;
   console.log(e);
   my();
