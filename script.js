@@ -12,7 +12,7 @@ list.addEventListener("click", function (e) {
 });
 function my() {
 //   song =  "https://www.pengshu.net/lyrics/content/songs/zhui_meng_chi_zi_xin.mp3"
-  song = "'https://ia802508.us.archive.org/5/items/testmp3testfile/mpthreetest.mp3"
+  song = "https://ia802508.us.archive.org/5/items/testmp3testfile/mpthreetest.mp3"
   audioPlayer.src = song;
   audioPlayer.play();
   print_song.innerText = text;
