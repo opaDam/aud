@@ -12,8 +12,8 @@ list.addEventListener("click", function (e) {
 });
 function my() {
   song =  "https://www.pengshu.net/lyrics/content/songs/zhui_meng_chi_zi_xin.mp3"
-//   song = "https://ia802508.us.archive.org/5/items/testmp3testfile/mpthreetest.mp3"
-//   song = "https://archive.org/details/CelineDion_A-New-Day-Has-Come_03222002/01+I'm+Alive.mp3"
+  // song = "https://ia802508.us.archive.org/5/items/testmp3testfile/mpthreetest.mp3"
+  // song = "https://archive.org/details/CelineDion_A-New-Day-Has-Come_03222002/01+I'm+Alive.mp3"
 
   audioPlayer.src = song;
   audioPlayer.play();
